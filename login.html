@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <script src="https://kit.fontawesome.com/5ce70beaab.js" crossorigin="anonymous"></script>
+    <style>
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+         
+            margin-top: 20px
+        }
+        .login-form input{
+            
+            font-size: 1.5em;
+            
+            margin-top: 20px;
+           
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .login-form input[type="submit"]{
+            background-color: aqua;
+            border: 0;
+            border-radius: 10px;
+            color: blue;
+            font-weight: 700;
+        }
+        nav{
+            background-color: rgb(130, 177, 53);
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+           
+            margin-left: 20px;
+            text-decoration: none;
+            color: aquamarine;
+          
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+            <a href="">Deshboad</a>
+            <a href="">Invention</a>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-file-signature"></i></a>
+
+            </span>
+            <span>
+                <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <a href=""><i class="fa-solid fa-laptop-code"></i></a>
+
+            </span>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="login-form">
+            <h2>Please Login</h2>
+            <input type="email" name="emnail" id="" placeholder="your mail" required>
+            <input type="password" name="you password" id="" placeholder="password" required>
+            <input type="submit" value="login">
+        </div>
+    </section>
+</body>
+</html>
